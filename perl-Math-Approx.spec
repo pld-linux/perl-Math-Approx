@@ -5,7 +5,7 @@ Summary:	Math::Approx perl module
 Summary(pl):	Modu³ perla Math::Approx
 Name:		perl-Math-Approx
 Version:	0.200
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
