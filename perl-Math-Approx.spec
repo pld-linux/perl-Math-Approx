@@ -1,9 +1,12 @@
+%define	pdir	Math
+%define	pnam	Approx
 %include	/usr/lib/rpm/macros.perl
 Summary:	Math-Approx perl module
 Summary(pl):	Modu³ perla Math-Approx
 Name:		perl-Math-Approx
 Version:	0.200
-Release:	6
+Release:	7
+
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vıvojové prostøedky/Programovací jazyky/Perl
@@ -14,7 +17,7 @@ Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Group(pt):	Desenvolvimento/Linguagens/Perl
 Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Math/Math-Approx-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Math-Matrix
