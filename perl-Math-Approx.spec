@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Approx
+%define		pdir	Math
+%define		pnam	Approx
 Summary:	Math::Approx perl module
 Summary(pl):	Modu³ perla Math::Approx
 Name:		perl-Math-Approx
