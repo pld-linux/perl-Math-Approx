@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Approx
-Summary:	Math-Approx perl module
-Summary(pl):	Modu³ perla Math-Approx
+Summary:	Math::Approx perl module
+Summary(pl):	Modu³ perla Math::Approx
 Name:		perl-Math-Approx
 Version:	0.200
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math-Approx perl module.
+Math::Approx perl module.
 
 %description -l pl
-Modu³ perla Math-Approx.
+Modu³ perla Math::Approx.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
