@@ -3,7 +3,7 @@ Summary:	Math-Approx perl module
 Summary(pl):	Modu³ perla Math-Approx
 Name:		perl-Math-Approx
 Version:	0.200
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
