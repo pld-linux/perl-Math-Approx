@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Approx
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math-Approx perl module
 Summary(pl):	Modu³ perla Math-Approx
 Name:		perl-Math-Approx
 Version:	0.200
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Math-Approx perl module.
 Modu³ perla Math-Approx.
 
 %prep
-%setup -q -n Math-Approx-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
