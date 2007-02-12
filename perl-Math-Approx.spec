@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Approx
 Summary:	Math::Approx perl module
-Summary(pl):	Modu≥ perla Math::Approx
+Summary(pl.UTF-8):   Modu≈Ç perla Math::Approx
 Name:		perl-Math-Approx
 Version:	0.220
 Release:	1
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Math::Approx perl module.
 
-%description -l pl
-Modu≥ perla Math::Approx.
+%description -l pl.UTF-8
+Modu≈Ç perla Math::Approx.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
