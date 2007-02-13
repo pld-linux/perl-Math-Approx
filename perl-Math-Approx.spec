@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Approx
 Summary:	Math::Approx perl module
-Summary(pl.UTF-8):   Moduł perla Math::Approx
+Summary(pl.UTF-8):	Moduł perla Math::Approx
 Name:		perl-Math-Approx
 Version:	0.220
 Release:	1
