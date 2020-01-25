@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	Approx
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Approx perl module
 Summary(pl.UTF-8):	Moduł perla Math::Approx
 Name:		perl-Math-Approx
